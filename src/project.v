@@ -40,7 +40,7 @@
 //   board's own on-board RP2040 clock generator for this project.
 // =============================================================================
 
-module tt_um_dna_accel (
+module tt_um_das2225_dna_accel (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
