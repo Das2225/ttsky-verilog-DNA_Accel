@@ -25,7 +25,7 @@ module tb ();
 `endif
   // Our DNA_Accel top module (clk here is sclk -- the external SPI clock,
   // per the note in tt_um_dna_accel_new.v):
-  tt_um_dna_accel user_project (
+  tt_um_das2225_dna_accel user_project (
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
       .VPWR(VPWR),
